@@ -92,3 +92,5 @@ def delete_person(p_id: int):
             json.dump(people, f)
     else:
         raise HTTPException(status_code=404, detail=f"There is no person with id {p_id}")
+
+# merge
